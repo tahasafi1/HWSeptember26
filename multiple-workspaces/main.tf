@@ -7,6 +7,7 @@ terraform {
     workspaces {
       prefix = "customers-"
     }
+  }
 
   required_providers {
     aws = {
@@ -14,7 +15,6 @@ terraform {
       version = "~> 5.0"
     }
    }
-  }
 }
 
 # Configure the AWS Provider
